@@ -1,0 +1,9 @@
+# Block Meta-ExternalAgent entirely, allow link previews, nothing for AI scraper
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: *
+Disallow: /private/

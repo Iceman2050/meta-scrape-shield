@@ -1,0 +1,6 @@
+# ai.txt — emerging standard, blocks AI training crawlers
+User-agent: Meta-AI-Scraper
+Disallow: /
+
+User-agent: *
+Allow: /

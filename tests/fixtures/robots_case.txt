@@ -1,0 +1,8 @@
+# Case-insensitivity + empty Disallow (allow-all) + comments
+# leading comment line
+USER-AGENT: meta-externalagent
+Disallow:
+
+User-agent: FacebookExternalHit
+# inline comment
+Allow: /blog/

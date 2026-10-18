@@ -1,0 +1,4 @@
+# Longest-match edge case: /private/ blocked but /private/public/ allowed
+User-agent: *
+Disallow: /private/
+Allow: /private/public/
